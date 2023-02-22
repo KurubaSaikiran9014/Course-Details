@@ -1,0 +1,25 @@
+.item {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  margin: 20px;
+}
+.img {
+  height: 70px;
+  width: 70px;
+  margin-right: 10px;
+}
+.name {
+  font-size: 20px;
+  font-family: 'Roboto';
+
+  color: #1e293b;
+}
+@media screen and (max-width: 768px) {
+  .item {
+    width: 90%;
+  }
+  .name {
+    font-size: 20px;
+  }
+}
